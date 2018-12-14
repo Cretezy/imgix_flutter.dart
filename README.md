@@ -1,13 +1,13 @@
 # Imgix Flutter
 
-An [Imgix](https://imgix.com) Flutter wrapper to embed Imgix URLs with options easily. Uses [imgix](https://pub.dartlang.org/packages/imgix).
+An [Imgix](https://imgix.com) Flutter wrapper to embed Imgix URLs with options easily. Uses [`imgix`](https://pub.dartlang.org/packages/imgix).
 
 ## Install
 Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  imgix_flutter: ^0.1.0
+  imgix_flutter: ^0.1.1
 ```
 
 ## Usage

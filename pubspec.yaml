@@ -1,6 +1,6 @@
 name: imgix_flutter
 description: An Imgix Flutter wrapper to embed Imgix URLs with options easily
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Cretezy/imgix_flutter.dart
 author: Charles Crete <charles@cretezy.com>
 
@@ -10,4 +10,4 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  imgix: ^0.1.1
+  imgix: ^0.2.0
