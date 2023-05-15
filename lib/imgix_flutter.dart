@@ -4,9 +4,9 @@ import 'package:imgix/imgix.dart';
 /// Get an [ImageProvider] for an Imgix image
 ImageProvider getImgixProvider(
   String url, {
-  ImgixOptions options,
+  ImgixOptions? options,
   double scale = 1.0,
-  Map<String, String> headers,
+  Map<String, String>? headers,
 }) {
   return NetworkImage(
     getImgixUrl(url, options),
@@ -21,30 +21,30 @@ class ImgixImage extends StatelessWidget {
   final String src;
 
   /// Imgix options
-  final ImgixOptions options;
+  final ImgixOptions? options;
 
   // Same as [NetworkImage]
   final double scale;
-  final Map<String, String> headers;
+  final Map<String, String>? headers;
 
   // Same as [Image]
-  final double width;
-  final double height;
-  final Color color;
+  final double? width;
+  final double? height;
+  final Color? color;
   final FilterQuality filterQuality;
-  final BlendMode colorBlendMode;
-  final BoxFit fit;
+  final BlendMode? colorBlendMode;
+  final BoxFit? fit;
   final AlignmentGeometry alignment;
   final ImageRepeat repeat;
-  final Rect centerSlice;
+  final Rect? centerSlice;
   final bool matchTextDirection;
   final bool gaplessPlayback;
-  final String semanticLabel;
+  final String? semanticLabel;
   final bool excludeFromSemantics;
 
   ImgixImage(
     this.src, {
-    Key key,
+    Key? key,
     this.options,
     this.scale = 1.0,
     this.headers,

@@ -3,11 +3,12 @@
 An [Imgix](https://imgix.com) Flutter wrapper to embed Imgix URLs with options easily. Uses [`imgix`](https://pub.dartlang.org/packages/imgix).
 
 ## Install
+
 Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  imgix_flutter: ^0.1.1
+  imgix_flutter: ^0.3.0
 ```
 
 ## Usage
@@ -20,12 +21,12 @@ import 'package:imgix/imgix.dart';
 import 'package:flutter/material.dart';
 
 main() {
-  final url = "https://test.imgix.net/test.png";
+  final url = "https://assets.imgix.net/examples/treefrog.jpg";
   final options = ImgixOptions(
-    width: 100,
-    height: 200,
+    width: 300,
+    height: 400,
     format: ImgixFormat.jpg,
-    quality: 75,
+    quality: 85,
     auto: [ImgixAuto.compress],
   );
 
